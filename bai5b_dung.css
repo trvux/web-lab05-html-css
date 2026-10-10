@@ -1,0 +1,16 @@
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 225px;
+  background-color: #009900;
+}
+ul.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: none;
+}
+ul.menu li a:hover,
+ul.menu li a.active { background-color: coral; }

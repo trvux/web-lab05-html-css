@@ -1,0 +1,70 @@
+* { box-sizing: border-box; }
+body { margin: 0; color: #0a4f8a; }
+.wrapper { max-width: 1100px; margin: 0 auto; border: 1px solid #ccc; }
+
+header img { display: block; width: 100%; }
+
+nav { background: #2b2b2b; border-bottom: 3px solid #ccc; }
+nav ul { list-style: none; margin: 0; padding: 0; display: flex; }
+nav li a {
+  display: block;
+  width: 170px;
+  padding: 17px 0 17px 30px;
+  color: white;
+  text-decoration: none;
+}
+nav li a:hover { background: #0a4f8a; }
+
+.main { display: flex; background: #ccc; gap: 4px; padding: 4px 0 4px 0; }
+aside { width: 27%; background: white; padding: 8px; align-self: flex-start; }
+aside h3 {
+  margin: 0 0 8px;
+  background: #0a4f8a;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+aside > ul { list-style: square; padding-left: 38px; font-weight: bold; margin: 0; }
+aside > ul > li { margin: 14px 0; }
+aside ul ul { list-style: circle; font-weight: normal; padding-left: 38px; margin-top: 6px; }
+aside li li { margin: 3px 0; }
+
+.noidung { flex: 1; }
+.noidung > .banner { display: block; width: 100%; }
+.noidung h2 {
+  margin: 10px 0 0;
+  background: #0a4f8a;
+  color: white;
+  padding: 12px 14px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.ds { display: flex; justify-content: space-between; padding: 12px 4px 12px 4px; }
+.sp {
+  width: 32%;
+  background: white;
+  text-align: center;
+  padding: 12px 8px 8px;
+}
+.sp img.anh { width: 100%; }
+.sp .ten { margin: 12px 0 8px; font-size: 17px; }
+.sp .gia { color: #cc0000; font-weight: bold; margin: 12px 0 8px; font-size: 17px; }
+.sp .sao { width: 70px; display: block; margin: 0 auto; }
+.sp .mua { display: block; margin: 0 auto; }
+
+.thongtin { display: flex; background: white; padding: 30px 40px; color: navy; }
+.thongtin > div { flex: 1; }
+.thongtin h3 { margin: 0 0 20px; font-size: 24px; text-transform: uppercase; }
+.thongtin p { margin: 12px 0; font-size: 18px; }
+.thongtin input[type=text] { width: 230px; height: 28px; }
+.thongtin .social img { height: 66px; width: auto; margin-right: 6px; }
+
+footer {
+  background: #0a2f9a;
+  color: white;
+  text-align: center;
+  padding: 14px 0;
+  font-size: 18px;
+}

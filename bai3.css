@@ -1,0 +1,15 @@
+.khunganh {
+  width: 200px;
+  border: 1px solid gray;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  float: right;
+}
+.khunganh p {
+  font-style: italic;
+  font-size: small;
+}
+.vanban {
+  text-align: justify;
+}

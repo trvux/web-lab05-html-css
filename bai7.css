@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+}
+header { background: red; height: 140px; text-align: center; }
+nav { background: yellow; height: 70px; line-height: 70px; text-align: center; }
+.content { display: flex; min-height: 420px; }
+aside.left { width: 16.7%; background: purple; padding: 0 20px; }
+section.center { flex: 1; background: darkkhaki; text-align: center; }
+aside.right { width: 16.7%; background: lime; padding: 0 20px; }
+footer { background: yellow; height: 70px; line-height: 70px; text-align: center; }

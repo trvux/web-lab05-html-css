@@ -1,0 +1,58 @@
+* { box-sizing: border-box; }
+body { margin: 0; }
+.wrapper { max-width: 960px; margin: 0 auto; }
+
+header img { display: block; width: 100%; }
+nav { background: #222; text-align: center; padding: 12px 0; }
+nav a { color: white; font-weight: bold; text-decoration: none; margin: 0 22px; font-size: 15px; }
+nav a:hover { color: gold; }
+
+.main { display: flex; gap: 6px; margin-top: 6px; }
+
+aside { width: 185px; }
+.box {
+  border: 1px solid #7b1113;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 8px;
+  padding-bottom: 12px;
+}
+.box h3 {
+  margin: 0 0 12px;
+  background: #a00000;
+  color: white;
+  text-align: center;
+  padding: 3px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.box form { padding: 0 15px; }
+.box input[type=text], .box input[type=password] {
+  width: 100%;
+  height: 26px;
+  margin-bottom: 14px;
+  border: 1px solid #7b1113;
+  padding: 0 6px;
+}
+.box button {
+  background: #5b0e91;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  font-weight: bold;
+}
+.box ul { margin: 0; padding-left: 38px; font-weight: bold; color: #1a1acc; }
+.box li { margin: 8px 0; }
+
+section { flex: 1; }
+section h2 { margin: 6px 0 10px; color: #2b8ae0; font-size: 20px; }
+.sach {
+  border: 3px solid #7b1113;
+  padding: 12px 12px 8px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.sach h4 { margin: 0 0 10px; color: #7b1113; font-size: 16px; }
+.sach .sao { width: 75px; display: block; margin-bottom: 10px; }
+.sach p { margin: 0 0 8px; text-align: justify; line-height: 1.4; }
+.sach .meta { text-align: right; margin: 22px 0 0; }
